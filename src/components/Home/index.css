@@ -1,0 +1,83 @@
+.book-home-page-bg-container {
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(124, 189, 122);
+    height: 100vh;
+    background-size: cover;
+    border-radius: 30px;
+  }
+  
+  .book-home-page-tittle {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .book-home-page-books-list {
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .home-page-book-item {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .home-page-book-item-link {
+    text-decoration: none;
+    height: 150px;
+    width: 200px;
+    padding: 20px;
+    background-color: pink;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .home-page-book-item-tittle {
+    color: red;
+    font-family: 'Roboto';
+    font-size: 15px;
+    align-self: flex-start;
+    font-weight: bold;
+  }
+  
+  .home-page-book-item-author {
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    align-self: flex-end;
+    font-style: italic;
+  }
+  
+  .home-page-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .home-page-add-button {
+    color: white;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: blue;
+    cursor: pointer;
+  }
+  

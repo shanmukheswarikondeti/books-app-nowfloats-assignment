@@ -1,0 +1,78 @@
+.add-book-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3e6f7;
+  height: 100vh;
+}
+
+.add-book-form-card {
+  width: 30%;
+  background-color: aliceblue;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.add-book-page-tittle {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #f062a2;
+  text-align: center;
+}
+
+.add-book-page-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.add-book-input-label {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.add-book-input-feild {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid black;
+  color: green;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.add-book-input-err-msg {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #fb1c10;
+  margin-top: 0px;
+}
+
+.add-book-page-button-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 25px;
+}
+
+.add-book-page-button {
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding: 7px 18px 7px 18px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  cursor: pointer;
+}
